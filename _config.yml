@@ -1,6 +1,4 @@
-require 'csv'
-title: "My Website"   # Correct
-  description: "A sample website"   # Incorrect (extra spaces)
-
+title: "My Website"  # Website title
+description: "A sample website"  # Description
 exclude:
-  - node_modules
+  - node_modules  # Exclude node_modules from Jekyll build
