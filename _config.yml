@@ -1,3 +1,6 @@
 require 'csv'
+title: "My Website"   # Correct
+  description: "A sample website"   # Incorrect (extra spaces)
+
 exclude:
   - node_modules
